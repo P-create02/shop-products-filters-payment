@@ -1,0 +1,495 @@
+export const productsData = [
+    {
+        "id": "recZkNf2kwmdBcqd0",
+        "name": "chair accent",
+        "price": 25999,
+        "image": "https://dl.airtable.com/.attachmentThumbnails/4f791c710f623d10b6a9c1709f53a903/63dd44f2",
+        "colors": [
+            "#000",
+            "#00ff00",
+            "#0000ff"
+        ],
+        "company": "marcos",
+        "category": "office",
+        "shipping": true,
+        "stock": 32,
+        "reviews": 252,
+        "stars": 4.5,
+    },
+    {
+        "id": "recEHmzvupvT8ZONH",
+        "name": "sofa prima",
+        "price": 109999,
+        "image": "https://dl.airtable.com/.attachmentThumbnails/6abf3d0f344f0dec7c84f2791637b743/91fc930f",
+        "colors": [
+            "#000",
+            "#ffb900"
+        ],
+        "company": "liddy",
+        "category": "living room",
+        "stock": 3,
+        "reviews": 111,
+        "stars": 4.7,
+    },
+    {
+        "id": "rec5NBwZ5zCD9nfF0",
+        "name": "table azur",
+        "price": 30999,
+        "image": "https://dl.airtable.com/.attachmentThumbnails/7478483f40a2f56662a87b304bd4e104/707d397f",
+        "colors": [
+            "#000",
+            "#ffb900",
+            "#0000ff"
+        ],
+        "company": "liddy",
+        "category": "kitchen",
+        "stock": 21,
+        "reviews": 35,
+        "stars": 4,
+    },
+    {
+        "id": "recd1jIVIEChmiwhe",
+        "name": "armchair",
+        "price": 12599,
+        "image": "https://dl.airtable.com/.attachmentThumbnails/677edf44524ee3f3bedd038f2524b776/100bbff4",
+        "colors": [
+            "#000",
+            "#00ff00",
+            "#0000ff"
+        ],
+        "company": "marcos",
+        "category": "bedroom",
+        "shipping": true,
+        "reviews": 9,
+        "stars": 3,
+    },
+    {
+        "id": "recoM2MyHJGHLVi5l",
+        "name": "table bar",
+        "price": 4099,
+        "image": "https://dl.airtable.com/.attachmentThumbnails/a6119fabf7256049cc0e8dbcdf536c9c/b0153f66",
+        "colors": [
+            "#000",
+            "#f55e55"
+        ],
+        "company": "liddy",
+        "shipping": true,
+        "stock": 40,
+        "reviews": 1,
+        "stars": 2,
+    },
+    {
+        "id": "recotY5Nh00DQFdkm",
+        "name": "table kitchen",
+        "price": 42999,
+        "image": "https://dl.airtable.com/.attachmentThumbnails/7a38cf782907773d9900165530cfa583/d9f41960",
+        "colors": [
+            "#000",
+            "#0000ff",
+            "#ff0000"
+        ],
+        "company": "ikea",
+        "category": "kitchen",
+        "shipping": true,
+        "stock": 7,
+        "reviews": 7,
+        "stars": 4,
+    },
+    {
+        "id": "rec1Ntk7siEEW9ha1",
+        "name": "bed montte",
+        "price": 23999,
+        "image": "https://dl.airtable.com/.attachmentThumbnails/6ecbda9b17fd8461ee697d81a0baebb0/ad68f356",
+        "colors": [
+            "#000",
+            "#0000ff",
+        ],
+        "company": "ikea",
+        "category": "bedroom",
+        "shipping": true,
+        "stock": 14,
+        "reviews": 12,
+        "stars": 3.9,
+    },
+    {
+        "id": "recNZ0koOqEmilmoz",
+        "name": "entertainment center",
+        "price": 59999,
+        "image": "https://dl.airtable.com/.attachmentThumbnails/65708b701baa3a84883ad48301624b44/2de058af",
+        "featured": true,
+        "colors": [
+            "#000",
+            "#ff0000"
+        ],
+        "company": "caressa",
+        "shipping": true,
+        "stock": 19,
+        "reviews": 6,
+        "stars": 4.1,
+    },
+    {
+        "id": "recrfxv3EwpvJwvjq",
+        "name": "armchair comfort",
+        "price": 39999,
+        "image": "https://dl.airtable.com/.attachmentThumbnails/1af97a4d3eb28563962d8e3520727ffc/1b9cc17f",
+        "featured": true,
+        "colors": [
+            "#000",
+            "#00ff00"
+        ],
+        "company": "ikea",
+        "shipping": true,
+        "stock": 6,
+        "reviews": 5,
+        "stars": 4.3,
+    },
+    {
+        "id": "recoW8ecgjtKx2Sj2",
+        "name": "chair leather",
+        "price": 20099,
+        "image": "https://dl.airtable.com/.attachmentThumbnails/d3174ad774fc628e1d50b77e3bec399f/1de7b97a",
+        "colors": [
+            "#000",
+            "#ff0000",
+            "#ffb900",
+            "#00ff00"
+        ],
+        "company": "caressa",
+        "category": "bedroom",
+        "stock": 11,
+        "reviews": 51,
+        "stars": 4.2,
+    },
+    {
+        "id": "recEOA6qtDag1hRbU",
+        "name": "sofa leather",
+        "price": 99999,
+        "image": "https://dl.airtable.com/.attachmentThumbnails/6fd2c659c6dd6355d8df9aa9d6218f81/ed9b32e6",
+        "colors": [
+            "#000",
+            "#00ff00",
+            "#0000ff"
+        ],
+        "company": "caressa",
+        "category": "office",
+        "reviews": 15,
+        "stars": 5,
+    },
+    {
+        "id": "recoAJYUCuEKxcPSr",
+        "name": "bookshelf modern",
+        "price": 31999,
+        "image": "https://dl.airtable.com/.attachmentThumbnails/1e4a818f5184993e430420a152315b40/873c7094",
+        "featured": true,
+        "colors": [
+            "#000",
+            "#ffb900",
+            "#ff0000",
+            "#00ff00"
+        ],
+        "company": "caressa",
+        "stock": 27,
+        "reviews": 26,
+        "stars": 2.7,
+    },
+    {
+        "id": "recQ0fMd8T0Vk211E",
+        "name": "painting sky",
+        "price": 3099,
+        "image": "https://dl.airtable.com/.attachmentThumbnails/89ba7458c24252be77f5a835dd398880/c13ef359",
+        "colors": [
+            "#000",
+            "#fff"
+        ],
+        "company": "liddy",
+        "category": "living room",
+        "shipping": true,
+        "stock": 32,
+        "reviews": 4,
+        "stars": 1,
+    },
+    {
+        "id": "rec7CjDWKRgNQtrKe",
+        "name": "shelf",
+        "price": 30999,
+        "image": "https://dl.airtable.com/.attachmentThumbnails/2fd8fb02cc6fa5620504de41fbb662f9/3157a507",
+        "colors": [
+            "#000",
+            "#00ff00"
+        ],
+        "company": "ikea",
+        "category": "living room",
+        "stock": 23,
+        "reviews": 26,
+        "stars": 3.8,
+    },
+    {
+        "id": "recF0KpwlkF7e8kXO",
+        "name": "chair falum",
+        "price": 109999,
+        "image": "https://dl.airtable.com/.attachmentThumbnails/c9d46754faf94d2283e15ac3b8accb9a/a6c343c8",
+        "colors": [
+            "#000",
+            "#0000ff"
+        ],
+        "company": "liddy",
+        "category": "living room",
+        "shipping": true,
+        "stock": 7,
+        "reviews": 3,
+        "stars": 5,
+    },
+    {
+        "id": "recs5BSVU3qQrOj4E",
+        "name": "sofa gorrg",
+        "price": 129999,
+        "image": "https://dl.airtable.com/.attachmentThumbnails/d77ccf7fa56fb25d66ae8cd0f592d977/cf153242",
+        "colors": [
+            "#000",
+            "#00ff00",
+            "#ffb900"
+        ],
+        "company": "marcos",
+        "category": "living room",
+        "shipping": true,
+        "reviews": 25,
+        "stars": 2.4,
+    },
+    {
+        "id": "recroK1VD8qVdMP5H",
+        "name": "armchair sudern",
+        "price": 15999,
+        "image": "https://dl.airtable.com/.attachmentThumbnails/675d09d111ca0dd009a4a1976cecd8a6/f9f6d031",
+        "colors": [
+            "#000",
+            "#ffb900"
+        ],
+        "company": "caressa",
+        "category": "office",
+        "stock": 20,
+        "reviews": 20,
+        "stars": 1.9,
+    },
+    {
+        "id": "rec7JInsuCEHgmaGe",
+        "name": "sofa optimus",
+        "price": 79999,
+        "image": "https://dl.airtable.com/.attachmentThumbnails/fe5f7162a03d514523f5762c2f209c41/bf3dc573",
+        "featured": true,
+        "colors": [
+            "#000",
+            "#ff0000",
+            "#00ff00"
+        ],
+        "company": "liddy",
+        "category": "living room",
+        "stock": 2,
+        "reviews": 4,
+        "stars": 4,
+    },
+    {
+        "id": "rec3jeKnhInKHJuz2",
+        "name": "table office",
+        "price": 400999,
+        "image": "https://dl.airtable.com/.attachmentThumbnails/147a1a0df991c2c5627c51b1e7bf4809/2278c7dc",
+        "featured": true,
+        "colors": [
+            "#000",
+            "#ff0000"
+        ],
+        "company": "marcos",
+        "category": "office",
+        "stock": 7,
+        "reviews": 16,
+        "stars": 3,
+    },
+    {
+        "id": "recroK1VD8sdf34sf",
+        "name": "bed wooden",
+        "price": 555599,
+        "image": "https://dl.airtable.com/.attachmentThumbnails/e529dc49e87ee1144a2c89952ea1728d/b6794cb5",
+        "colors": [
+            "#000",
+            "#ffb900"
+        ],
+        "company": "ikea",
+        "category": "bedroom",
+        "stock": 2,
+        "reviews": 9,
+        "stars": 3.5,
+    },
+    {
+        "id": "recroK1VD8IfIs93I",
+        "name": "desk wooden",
+        "price": 30999,
+        "image": "https://dl.airtable.com/.attachmentThumbnails/e3fa7aa6dc112c4998da18bb401bd70f/61e2fb5e",
+        "colors": [
+            "#000",
+            "#fff"
+        ],
+        "company": "ikea",
+        "category": "office",
+        "shipping": true,
+        "reviews": 123,
+        "stars": 5,
+    },
+    {
+        "id": "recroK1VD8qIOIO3I",
+        "name": "table girraf",
+        "price": 299999,
+        "image": "https://dl.airtable.com/.attachmentThumbnails/b969e69a2dae2999fb479b673a4cdcfd/557543f8",
+        "colors": [
+            "#000",
+            "#0000ff",
+            "#00ff00"
+        ],
+        "company": "ikea",
+        "category": "office",
+        "stock": 27,
+        "reviews": 18,
+        "stars": 3.3,
+    },
+    {
+        "id": "recroK1VD8OIOCBd7",
+        "name": "table opnor",
+        "price": 10999,
+        "image": "https://dl.airtable.com/.attachmentThumbnails/66f73cfd297e032e3d2dd1dbe341ac96/424a807f",
+        "featured": true,
+        "colors": [
+            "#000",
+            "#ffb900",
+            "#ff0000"
+        ],
+        "company": "caressa",
+        "category": "kitchen",
+        "shipping": true,
+        "stock": 7,
+    },
+    {
+        "id": "recroK1VD8qVOOAX4",
+        "name": "mirror lampar",
+        "price": 5999,
+        "image": "https://dl.airtable.com/.attachmentThumbnails/52d0eef5a868ca11a506b7eba305d3a9/4005dd0d",
+        "featured": true,
+        "colors": [
+            "#000",
+            "#fff",
+        ],
+        "company": "caressa",
+        "category": "bedroom",
+        "shipping": true,
+        "stock": 72,
+        "reviews": 120,
+        "stars": 4.3,
+    },
+    {
+        "id": "recroK1VD898HSiu6",
+        "name": "mirror lambda",
+        "price": 4999,
+        "image": "https://dl.airtable.com/.attachmentThumbnails/e2cbfa1dd8f2903a7c6c5b5fdb30209d/547c8fbc",
+        "featured": true,
+        "colors": [
+            "#000",
+            "#fff",
+        ],
+        "company": "caressa",
+        "category": "bedroom",
+        "shipping": true,
+        "stock": 12,
+        "reviews": 82,
+        "stars": 4.7,
+    },
+    {
+        "id": "recroK1VD8qVHH87S",
+        "name": "flower pot",
+        "price": 5999,
+        "image": "https://dl.airtable.com/.attachmentThumbnails/4d76016febde7b676e573d9ff9594c8e/7dd14d77",
+        "featured": true,
+        "colors": [
+            "#000",
+            "#0000ff",
+            "#00ff00"
+        ],
+        "company": "ikea",
+        "category": "living room",
+        "shipping": true,
+        "stock": 2,
+        "reviews": 8,
+        "stars": 5,
+    },
+    {
+        "id": "recroK1VD8qJSHDy2",
+        "name": "wardrobe gloro",
+        "price": 222999,
+        "image": "https://dl.airtable.com/.attachmentThumbnails/08e5e79bc722467fcb28f502868e27e1/cf5a4867",
+        "featured": true,
+        "colors": [
+            "#000",
+            "#00ff00"
+        ],
+        "company": "ikea",
+        "category": "bedroom",
+        "shipping": true,
+        "stock": 22,
+        "reviews": 82,
+        "stars": 2,
+    },
+    {
+        "id": "recroK1VD8qHDys72",
+        "name": "wardrobe omo",
+        "price": 222499,
+        "image": "https://dl.airtable.com/.attachmentThumbnails/059eb82abb1ae7ffb0c2b6a3efd23645/525b3f24",
+        "featured": true,
+        "colors": [
+            "#000",
+            "#ffb900"
+        ],
+        "company": "ikea",
+        "category": "bedroom",
+        "shipping": true,
+        "stock": 222,
+        "reviews": 12,
+        "stars": 4.1,
+    },
+    {
+        "id": "recroK1VD8qNsJd72",
+        "name": "corner wardrobe",
+        "price": 333999,
+        "image": "https://dl.airtable.com/.attachmentThumbnails/3c80870ad21f3301e79202c378fe719e/291e4996",
+        "featured": true,
+        "colors": [
+            "#000",
+        ],
+        "company": "ikea",
+        "category": "bedroom",
+        "shipping": true,
+    },
+    {
+        "id": "recroK1VD88IhsjB3",
+        "name": "shelf for shoes",
+        "price": 9111,
+        "image": "https://dl.airtable.com/.attachmentThumbnails/78652a278d81f02ac31105844bd30bb0/4062f525",
+        "featured": true,
+        "colors": [
+            "#000",
+        ],
+        "company": "ikea",
+        "category": "bedroom",
+        "shipping": true,
+    },
+]
+
+export const images = [
+    {
+        "img" : "https://dl.airtable.com/.attachmentThumbnails/e08aa7d5d0f7b014f91d2b7607d02a14/2ad55f3c"
+    },
+    {
+        "img" : "https://dl.airtable.com/.attachmentThumbnails/307df3a33284ef0a9ae43005936dd9f3/3f304027"
+    },
+    {
+        "img" : "https://dl.airtable.com/.attachmentThumbnails/44fa2f3c03b07a1f760cbb94f8093620/8e4ceb29"
+    },
+    {
+        "img" : "https://dl.airtable.com/.attachmentThumbnails/a9e3ee9a615bedd2655e186ee1078d27/75877a86"
+    },
+]
